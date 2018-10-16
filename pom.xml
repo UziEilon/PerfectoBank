@@ -10,7 +10,7 @@
 
     <properties>
         <testngXmlDir>src/main/resources/config</testngXmlDir>
-        <testngXmlFile>PerfectoBank.xml</testngXmlFile>
+        <testngXmlFile>perfectoBank.xml</testngXmlFile>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <reportium-sdk.version>1.1.22</reportium-sdk.version>
         <selenium.version>2.53.1</selenium.version>
