@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Demo Suite" verbose="0" parallel="tests" thread-count="100">
+	<listeners>
+		<listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
+	</listeners>
+
+	<test name="CVS on android random" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.deviceName" value="4EC7F3A2FA62E31A81C64FE30AA719225E2492F2"></parameter>
+		<parameter name="driver.capabilities.platformName" value="iOS"></parameter>
+		<parameter name="driver.capabilities.bundleId" value="com.cvs.cvspharmacy"></parameter>
+ 		<parameter name="driver.capabilities.location" value="NA-US-BOS"></parameter>
+
+		<groups>
+			<run>
+				<include name="cvs" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.cvsApp" />
+		</classes>
+	</test>
+
+
+</suite>

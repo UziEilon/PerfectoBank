@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="187.499" tests="4" errors="0" skipped="1" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/uzie/Documents/testExample/Quantum-Starter-Kit-master"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/uzie/Documents/testExample/Quantum-Starter-Kit-master"/>
+    <property name="java.runtime.version" value="1.8.0_45-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/xc/0l909q8d2dd39vln433bqttc0000gp/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/uzie/Documents/dev/apache-maven-3.3.9/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/uzie/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="user.home" value="/Users/uzie"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="uzie"/>
+    <property name="java.class.path" value="/Users/uzie/Documents/dev/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="java.ext.dirs" value="/Users/uzie/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/uzie/Documents/dev/apache-maven-3.3.9"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="PerfectoBankCheckDeposit" classname="com.quantum.tests.PerfectoBank" time="51.47">
+    <failure message="Failed to execute command image.injection start: startImageInjection command failed. Reason: handset server: target application is not instrumented&#10;Command duration or timeout: 3.33 seconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;UziMac.lan&apos;, ip: &apos;10.253.252.217&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_45&apos;&#10;Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver&#10;Capabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638&amp;_timestamp[0]=1539702263991, simpleIsVisibleCheck=true, deviceName=143D71CAAC024D6E111E8E7FF460D4C8F0080E5A, platform=ANY, password=, deviceSessionId=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638, host=demo.perfectomobile.com, singleTestReportUrl=https://demo.reporting.perfectomobile.com/library?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638&amp;_timestamp[0]=1539702263991, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, rotatable=true, testGridReportUrl=https://demo.reporting.perfectomobile.com/library?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638&amp;_timestamp[0]=1539702263991, entityType=appium_driver, xcuitestFindOptimizations=true, bundleId=com.perfecto.PerfectoBank, serverConnector=, serverHost=1.1.29.29:11601, securityToken=, executionId=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638, webdriver.remote.sessionid=05bebe77-bf7e-49e3-a473-812fea606cd9, locationContextEnabled=true, scriptName=RemoteWebDriver, location=NA-US-BOS, reportKey=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638, windTunnelReportUrl=https://demo.reporting.perfectomobile.com/library?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638&amp;_timestamp[0]=1539702263991, user=, cssSelectorsEnabled=true}]&#10;Session ID: 05bebe77-bf7e-49e3-a473-812fea606cd9" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Failed to execute command image.injection start: startImageInjection command failed. Reason: handset server: target application is not instrumented
+Command duration or timeout: 3.33 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'UziMac.lan', ip: '10.253.252.217', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_45'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638&_timestamp[0]=1539702263991, simpleIsVisibleCheck=true, deviceName=143D71CAAC024D6E111E8E7FF460D4C8F0080E5A, platform=ANY, password=, deviceSessionId=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638, host=demo.perfectomobile.com, singleTestReportUrl=https://demo.reporting.perfectomobile.com/library?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638&_timestamp[0]=1539702263991, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, rotatable=true, testGridReportUrl=https://demo.reporting.perfectomobile.com/library?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638&_timestamp[0]=1539702263991, entityType=appium_driver, xcuitestFindOptimizations=true, bundleId=com.perfecto.PerfectoBank, serverConnector=, serverHost=1.1.29.29:11601, securityToken=, executionId=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638, webdriver.remote.sessionid=05bebe77-bf7e-49e3-a473-812fea606cd9, locationContextEnabled=true, scriptName=RemoteWebDriver, location=NA-US-BOS, reportKey=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638, windTunnelReportUrl=https://demo.reporting.perfectomobile.com/library?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638&_timestamp[0]=1539702263991, user=, cssSelectorsEnabled=true}]
+Session ID: 05bebe77-bf7e-49e3-a473-812fea606cd9
+	at com.quantum.tests.PerfectoBank.PerfectoBankCheckDeposit(PerfectoBank.java:36)
+Caused by: java.lang.RuntimeException: Failed to execute command image.injection start: startImageInjection command failed. Reason: handset server: target application is not instrumented
+]]></failure>
+    <system-out><![CDATA[main: ISFW build info: {qaf-Type=core, qaf-Revision=12, qaf-Version=2.1, qaf-Build-Time=06-Sep-2017 07:56:25} 
+main: Resource dir: /Users/uzie/Documents/testExample/Quantum-Starter-Kit-master/src/main/resources/common. Found property files to load: 0 
+main: Resource dir: /Users/uzie/Documents/testExample/Quantum-Starter-Kit-master/src/main/resources/common. Found property files to load: 1 
+TestNG: Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub,port:80 
+TestNG: Initializing Driver...browser_str:perfectoRemoteDriver,base_url:,sel_server:https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub,port:80 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Driver: perfectoRemoteDriver 
+TestNG: Processing request Request[_requestType=DEVICE_INFO,_itemId=143D71CAAC024D6E111E8E7FF460D4C8F0080E5A,_parameters=[ParameterValue[_name=responseFormat,_value=xml]],_stringParameters=<null>,_encoding=<null>] 
+TestNG: URL = https://demo.perfectomobile.com/services/handsets/143D71CAAC024D6E111E8E7FF460D4C8F0080E5A?operation=info&responseFormat=xml&user=%22%22 
+TestNG: Request: https://demo.perfectomobile.com/services/handsets/143D71CAAC024D6E111E8E7FF460D4C8F0080E5A?operation=info&responseFormat=xml&user=%22%22 returned with error code 401 and content type text/xml;charset=UTF-8 
+TestNG: Response: <?xml version="1.0" encoding="UTF-8"?>
+<response><errorMessage>Failed to get device info - Access denied - bad credentials</errorMessage></response> 
+TestNG: Response values: {errorMessage=Failed to get device info - Access denied - bad credentials} 
+[ 143D71CAAC024D]: ▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638&_timestamp[0]=1539702263991, simpleIsVisibleCheck=true, deviceName=143D71CAAC024D6E111E8E7FF460D4C8F0080E5A, platform=ANY, password=, deviceSessionId=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638, host=demo.perfectomobile.com, singleTestReportUrl=https://demo.reporting.perfectomobile.com/library?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638&_timestamp[0]=1539702263991, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, rotatable=true, testGridReportUrl=https://demo.reporting.perfectomobile.com/library?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638&_timestamp[0]=1539702263991, entityType=appium_driver, xcuitestFindOptimizations=true, bundleId=com.perfecto.PerfectoBank, serverConnector=, serverHost=1.1.29.29:11601, securityToken=, executionId=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638, webdriver.remote.sessionid=05bebe77-bf7e-49e3-a473-812fea606cd9, locationContextEnabled=true, scriptName=RemoteWebDriver, location=NA-US-BOS, reportKey=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638, windTunnelReportUrl=https://demo.reporting.perfectomobile.com/library?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638&_timestamp[0]=1539702263991, user=, cssSelectorsEnabled=true}] ▀▄▀▄▀
+[ 143D71CAAC024D]: Executing setTimeout parameters: {"ms":0,"type":"implicit"} 
+[ 143D71CAAC024D]: command: setTimeout[ param-1: {type=implicit, ms=0}] Result: null 
+driver init done
+[ 143D71CAAC024D]: uting executeScript parameters: {"args":[{"customFields":[],"name":"PerfectoBankCheckDeposit","projectName":"Quantum-Starter-Kit-master","projectVersion":"1.0","tags":["PerfectoBank ios10","P1","search","perfectoBank"]}],"script":"mobile:test:start"} 
+[ 143D71CAAC024D]: █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+[ 143D71CAAC024D]: █ TEST STARTED: PerfectoBankCheckDeposit █
+[ 143D71CAAC024D]: █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+[ 143D71CAAC024D]: Executing executeScript parameters: {"args":[{"identifier":"com.perfecto.PerfectoBank"}],"script":"mobile:application:close"} 
+[ 143D71CAAC024D]: Executing executeScript parameters: {"args":[{"identifier":"com.perfecto.PerfectoBank"}],"script":"mobile:application:open"} 
+TestNG: Processing request Request[_requestType=DEVICE_INFO,_itemId=8AF8F6AFBC0F6CF46617EE6EFA70D140DA8D8965,_parameters=[ParameterValue[_name=responseFormat,_value=xml]],_stringParameters=<null>,_encoding=<null>] 
+TestNG: URL = https://demo.perfectomobile.com/services/handsets/8AF8F6AFBC0F6CF46617EE6EFA70D140DA8D8965?operation=info&responseFormat=xml&user=%22%22 
+TestNG: Request: https://demo.perfectomobile.com/services/handsets/8AF8F6AFBC0F6CF46617EE6EFA70D140DA8D8965?operation=info&responseFormat=xml&user=%22%22 returned with error code 401 and content type text/xml;charset=UTF-8 
+TestNG: Response: <?xml version="1.0" encoding="UTF-8"?>
+<response><errorMessage>Failed to get device info - Access denied - bad credentials</errorMessage></response> 
+TestNG: Response values: {errorMessage=Failed to get device info - Access denied - bad credentials} 
+[ 8AF8F6AFBC0F6C]: ▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20639&_timestamp[0]=1539702263994, simpleIsVisibleCheck=true, deviceName=8AF8F6AFBC0F6CF46617EE6EFA70D140DA8D8965, platform=ANY, password=, deviceSessionId=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20639, host=demo.perfectomobile.com, singleTestReportUrl=https://demo.reporting.perfectomobile.com/library?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20639&_timestamp[0]=1539702263994, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, rotatable=true, testGridReportUrl=https://demo.reporting.perfectomobile.com/library?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20639&_timestamp[0]=1539702263994, entityType=appium_driver, xcuitestFindOptimizations=true, bundleId=com.perfecto.PerfectoBank, serverConnector=, serverHost=1.1.29.76:11604, securityToken=, executionId=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20639, webdriver.remote.sessionid=259c4788-d7e0-426e-8389-cae5dea0f1b1, locationContextEnabled=true, scriptName=RemoteWebDriver, location=NA-US-BOS, reportKey=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20639, windTunnelReportUrl=https://demo.reporting.perfectomobile.com/library?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20639&_timestamp[0]=1539702263994, user=, cssSelectorsEnabled=true}] ▀▄▀▄▀
+[ 8AF8F6AFBC0F6C]: Executing setTimeout parameters: {"ms":0,"type":"implicit"} 
+[ 8AF8F6AFBC0F6C]: command: setTimeout[ param-1: {type=implicit, ms=0}] Result: null 
+driver init done
+[ 8AF8F6AFBC0F6C]: arameters: {"args":[{"customFields":[],"name":"PerfectoBankCheckDeposit","projectName":"Quantum-Starter-Kit-master","projectVersion":"1.0","tags":["PerfectoBank ios11","PerfectoBank ios10","P1","search","perfectoBank"]}],"script":"mobile:test:start"} 
+[ 8AF8F6AFBC0F6C]: █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+[ 8AF8F6AFBC0F6C]: █ TEST STARTED: PerfectoBankCheckDeposit █
+[ 8AF8F6AFBC0F6C]: █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+[ 8AF8F6AFBC0F6C]: Executing executeScript parameters: {"args":[{"identifier":"com.perfecto.PerfectoBank"}],"script":"mobile:application:close"} 
+[ 8AF8F6AFBC0F6C]: Executing executeScript parameters: {"args":[{"identifier":"com.perfecto.PerfectoBank"}],"script":"mobile:application:open"} 
+[ 143D71CAAC024D]: Executing setTimeout parameters: {"ms":5000,"type":"implicit"} 
+[ 143D71CAAC024D]: command: setTimeout[ param-1: {type=implicit, ms=5000}] Result: null 
+[ 143D71CAAC024D]: Executing findElement parameters: {"using":"xpath","value":"//*[@name=\"userFD\"]"} 
+[ 143D71CAAC024D]: command: findElement[ param-1: {value=//*[@name="userFD"], using=xpath}] Result: id: 0B000000-0000-0000-206B-000000000000 
+[ 143D71CAAC024D]: Executing sendKeysToElement element: By.xpath: //*[@name="userFD"] parameters: {"id":"0B000000-0000-0000-206B-000000000000","value":["uzi"]} 
+[ 143D71CAAC024D]: command: sendKeysToElement[ param-1: By.xpath: //*[@name="userFD"] param-2: {"id":"0B000000-0000-0000-206B-000000000000","value":["uzi"]}] Result: sendKeysToElement:null 
+[ 143D71CAAC024D]: Executing findElement parameters: {"using":"xpath","value":"//UIASecureTextField"} 
+[ 8AF8F6AFBC0F6C]: Executing setTimeout parameters: {"ms":5000,"type":"implicit"} 
+[ 143D71CAAC024D]: command: findElement[ param-1: {value=//UIASecureTextField, using=xpath}] Result: id: 0C000000-0000-0000-206B-000000000000 
+[ 143D71CAAC024D]: Executing sendKeysToElement element: By.xpath: //UIASecureTextField parameters: {"id":"0C000000-0000-0000-206B-000000000000","value":["PassW00"]} 
+[ 143D71CAAC024D]: command: sendKeysToElement[ param-1: By.xpath: //UIASecureTextField param-2: {"id":"0C000000-0000-0000-206B-000000000000","value":["PassW00"]}] Result: sendKeysToElement:null 
+[ 8AF8F6AFBC0F6C]: command: setTimeout[ param-1: {type=implicit, ms=5000}] Result: null 
+[ 143D71CAAC024D]: Executing findElement parameters: {"using":"xpath","value":"//*[@label=\"return\"]"} 
+[ 8AF8F6AFBC0F6C]: Executing findElement parameters: {"using":"xpath","value":"//*[@name=\"userFD\"]"} 
+[ 143D71CAAC024D]: command: findElement[ param-1: {value=//*[@label="return"], using=xpath}] Result: id: 53000000-0000-0000-206B-000000000000 
+[ 143D71CAAC024D]: Executing clickElement element: By.xpath: //*[@label="return"] parameters: {"id":"53000000-0000-0000-206B-000000000000"} 
+[ 8AF8F6AFBC0F6C]: command: findElement[ param-1: {value=//*[@name="userFD"], using=xpath}] Result: id: 0B000000-0000-0000-EE1E-000000000000 
+[ 8AF8F6AFBC0F6C]: Executing sendKeysToElement element: By.xpath: //*[@name="userFD"] parameters: {"id":"0B000000-0000-0000-EE1E-000000000000","value":["uzi"]} 
+[ 143D71CAAC024D]: command: clickElement[ param-1: By.xpath: //*[@label="return"] param-2: {"id":"53000000-0000-0000-206B-000000000000"}] Result: clickElement:null 
+[ 143D71CAAC024D]: Executing setTimeout parameters: {"ms":15000,"type":"implicit"} 
+[ 143D71CAAC024D]: command: setTimeout[ param-1: {type=implicit, ms=15000}] Result: null 
+[ 143D71CAAC024D]: Executing findElement parameters: {"using":"xpath","value":"//*[@label=\"loginLBacc\"]"} 
+[ 8AF8F6AFBC0F6C]: command: sendKeysToElement[ param-1: By.xpath: //*[@name="userFD"] param-2: {"id":"0B000000-0000-0000-EE1E-000000000000","value":["uzi"]}] Result: sendKeysToElement:null 
+[ 143D71CAAC024D]: command: findElement[ param-1: {value=//*[@label="loginLBacc"], using=xpath}] Result: id: 0D000000-0000-0000-206B-000000000000 
+[ 8AF8F6AFBC0F6C]: Executing findElement parameters: {"using":"xpath","value":"//UIASecureTextField"} 
+[ 143D71CAAC024D]: Executing clickElement element: By.xpath: //*[@label="loginLBacc"] parameters: {"id":"0D000000-0000-0000-206B-000000000000"} 
+[ 143D71CAAC024D]: command: clickElement[ param-1: By.xpath: //*[@label="loginLBacc"] param-2: {"id":"0D000000-0000-0000-206B-000000000000"}] Result: clickElement:null 
+[ 143D71CAAC024D]: Executing findElement parameters: {"using":"xpath","value":"//*[@name=\"balanceFD\"]"} 
+[ 8AF8F6AFBC0F6C]: command: findElement[ param-1: {value=//UIASecureTextField, using=xpath}] Result: id: 0C000000-0000-0000-EE1E-000000000000 
+[ 8AF8F6AFBC0F6C]: Executing sendKeysToElement element: By.xpath: //UIASecureTextField parameters: {"id":"0C000000-0000-0000-EE1E-000000000000","value":["PassW00"]} 
+[ 143D71CAAC024D]: command: findElement[ param-1: {value=//*[@name="balanceFD"], using=xpath}] Result: id: 5E000000-0000-0000-206B-000000000000 
+[ 143D71CAAC024D]: Executing executeScript parameters: {"args":[{"identifier":"com.perfecto.PerfectoBank","repositoryFile":"PRIVATE:check_demo.jpg"}],"script":"mobile:image.injection:start"} 
+[ 8AF8F6AFBC0F6C]: command: sendKeysToElement[ param-1: By.xpath: //UIASecureTextField param-2: {"id":"0C000000-0000-0000-EE1E-000000000000","value":["PassW00"]}] Result: sendKeysToElement:null 
+[ 8AF8F6AFBC0F6C]: Executing findElement parameters: {"using":"xpath","value":"//*[@label=\"return\"]"} 
+[ 8AF8F6AFBC0F6C]: command: findElement[ param-1: {value=//*[@label="return"], using=xpath}] Result: id: 4A000000-0000-0000-EE1E-000000000000 
+[ 8AF8F6AFBC0F6C]: Executing clickElement element: By.xpath: //*[@label="return"] parameters: {"id":"4A000000-0000-0000-EE1E-000000000000"} 
+[ 8AF8F6AFBC0F6C]: command: clickElement[ param-1: By.xpath: //*[@label="return"] param-2: {"id":"4A000000-0000-0000-EE1E-000000000000"}] Result: clickElement:null 
+[ 8AF8F6AFBC0F6C]: Executing setTimeout parameters: {"ms":15000,"type":"implicit"} 
+[ 8AF8F6AFBC0F6C]: command: setTimeout[ param-1: {type=implicit, ms=15000}] Result: null 
+[ 8AF8F6AFBC0F6C]: Executing findElement parameters: {"using":"xpath","value":"//*[@label=\"loginLBacc\"]"} 
+[ 143D71CAAC024D]: lReportUrl=https://demo.reporting.perfectomobile.com/library?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638&_timestamp[0]=1539702263991, user=, cssSelectorsEnabled=true}]
+Session ID: 05bebe77-bf7e-49e3-a473-812fea606cd9 
+[ 143D71CAAC024D]: lReportUrl=https://demo.reporting.perfectomobile.com/library?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638&_timestamp[0]=1539702263991, user=, cssSelectorsEnabled=true}]
+Session ID: 05bebe77-bf7e-49e3-a473-812fea606cd9 
+[ 143D71CAAC024D]: Executing screenshot parameters: {} 
+[ 143D71CAAC024D]: Capturing screen shotPerfectoBankCheckDeposit_rpmf7rtpy55t13888.png 
+[ 8AF8F6AFBC0F6C]: command: findElement[ param-1: {value=//*[@label="loginLBacc"], using=xpath}] Result: id: 0D000000-0000-0000-EE1E-000000000000 
+[ 8AF8F6AFBC0F6C]: Executing clickElement element: By.xpath: //*[@label="loginLBacc"] parameters: {"id":"0D000000-0000-0000-EE1E-000000000000"} 
+]]></system-out>
+  </testcase>
+  <testcase name="PerfectoBankCheckDeposit" classname="com.quantum.tests.PerfectoBank" time="92.631"/>
+  <testcase name="transferMoneyMoreThenBalance" classname="com.quantum.tests.PerfectoBank" time="0">
+    <skipped message="Method PerfectoBank.transferMoneyMoreThenBalance()[pri:0, instance:com.quantum.tests.PerfectoBank@71c8becc] depends on not successfully finished methods"/>
+    <system-out><![CDATA[[ 143D71CAAC024D]: nner.privateRun(TestRunner.java:781)\n\tat org.testng.TestRunner.run(TestRunner.java:635)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:39)\n\tat ..."}],"script":"mobile:test:end"} 
+[ 143D71CAAC024D]: ▀▄▀▄▀ REPORTIUM URL: https://demo.reporting.perfectomobile.com/library?externalId%5B0%5D=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638&_timestamp%5B0%5D=1539702263991 ▀▄▀▄▀
+[ 143D71CAAC024D]: █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+[ 143D71CAAC024D]: █ TEST FAILED: PerfectoBankCheckDeposit █
+[ 143D71CAAC024D]: █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+]]></system-out>
+  </testcase>
+  <testcase name="transferMoneyMoreThenBalance" classname="com.quantum.tests.PerfectoBank" time="44.751"/>
+</testsuite>

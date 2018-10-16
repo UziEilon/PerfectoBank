@@ -1,0 +1,601 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Demo Suite" verbose="0" parallel="tests" thread-count="100">
+	<listeners>
+		<listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
+	</listeners>
+
+
+
+
+
+	<test name="1target Chrome" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="64"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+ 		<parameter name="driver.capabilities.platformVersion" value="10"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+
+	<test name="2target FireFox" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="58"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Firefox"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="10"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+
+	<test name="3target FireFox beta" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="beta"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Firefox"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="10"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+
+
+
+
+	<test name="4vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+
+	<test name="5vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="6vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="7vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="8vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="9vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="0vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="11vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="12vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="13vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="14vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="15vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="16vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="17vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="18vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="19vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="20vanguard" enabled="true" thread-count="10">
+	<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+	<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+	<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+	<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+	<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+	<parameter name="driver.capabilities.location" value="US East"></parameter>
+	<groups>
+		<run>
+			<include name="apple" />
+		</run>
+	</groups>
+	<classes>
+		<class
+				name="com.quantum.tests.apple" />
+	</classes>
+</test>
+	<test name="21vanguard" enabled="true" thread-count="10">
+	<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+	<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+	<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+	<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+	<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+	<parameter name="driver.capabilities.location" value="US East"></parameter>
+	<groups>
+		<run>
+			<include name="apple" />
+		</run>
+	</groups>
+	<classes>
+		<class
+				name="com.quantum.tests.apple" />
+	</classes>
+</test>
+	<test name="22vanguard" enabled="true" thread-count="10">
+	<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+	<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+	<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+	<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+	<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+	<parameter name="driver.capabilities.location" value="US East"></parameter>
+	<groups>
+		<run>
+			<include name="apple" />
+		</run>
+	</groups>
+	<classes>
+		<class
+				name="com.quantum.tests.apple" />
+	</classes>
+</test>
+
+	<test name="31vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="32vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="33vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="34vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="35vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="36vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="37vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="38vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="39vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="40vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="41vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+	<test name="42vanguard" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="68"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="7"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+		<groups>
+			<run>
+				<include name="apple" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.apple" />
+		</classes>
+	</test>
+
+
+</suite>

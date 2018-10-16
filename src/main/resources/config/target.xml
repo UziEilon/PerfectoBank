@@ -1,0 +1,123 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Demo Suite" verbose="0" parallel="tests" thread-count="100">
+	<listeners>
+		<listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
+	</listeners>
+
+	<test name="target on Pixel" enabled="false" thread-count="10">
+		<parameter name="driver.capabilities.model" value="Pixel"></parameter>
+		<parameter name="driver.capabilities.browserName" value="MobileOS"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Android"></parameter>
+
+
+		<groups>
+			<run>
+				<include name="target3" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.targetMain" />
+		</classes>
+	</test>
+
+	<test name="target on S7" enabled="false" thread-count="10">
+		<parameter name="driver.capabilities.deviceName" value="988667325047395643"></parameter>
+		<parameter name="driver.capabilities.browserName" value="MobileOS"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Android"></parameter>
+
+		<groups>
+			<run>
+				<include name="target3" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.targetMain" />
+		</classes>
+	</test>
+
+	<test name="target on ios big" enabled="false" thread-count="10">
+		<parameter name="driver.capabilities.deviceName" value="95ECD130589BCBAB30B1412A7981091E3922DC60"></parameter>
+		<parameter name="driver.capabilities.browserName" value="MobileOS"></parameter>
+		<parameter name="driver.capabilities.platformName" value="iOS"></parameter>
+
+
+		<groups>
+			<run>
+				<include name="target3" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.targetMain" />
+		</classes>
+	</test>
+
+
+	<test name="target on ios" enabled="false" thread-count="10">
+		<parameter name="driver.capabilities.deviceName" value="C224CBB792B3FB9A4FE03FCF35E3F8EA8721CF05"></parameter>
+		<parameter name="driver.capabilities.browserName" value="MobileOS"></parameter>
+		<parameter name="driver.capabilities.platformName" value="iOS"></parameter>
+
+
+		<groups>
+			<run>
+				<include name="target3" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.targetMain" />
+		</classes>
+	</test>
+
+
+	<test name="target Chrome" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="65"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+
+		<groups>
+			<run>
+				<include name="target3" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.targetMain" />
+		</classes>
+	</test>
+
+	<test name="target FireFox" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="58"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Firefox"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+
+		<groups>
+			<run>
+				<include name="target3" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.targetMain" />
+		</classes>
+	</test>
+
+	<test name="target FireFox beta" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="beta"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Firefox"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+
+		<groups>
+			<run>
+				<include name="target3" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.targetMain" />
+		</classes>
+	</test>
+</suite>

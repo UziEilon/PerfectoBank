@@ -1,0 +1,92 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PerfectoBank ios10" verbose="0" parallel="tests" thread-count="100">
+	<listeners>
+		<listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
+	</listeners>
+	<test name="PerfectoBank ios10" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.deviceName" value="143D71CAAC024D6E111E8E7FF460D4C8F0080E5A"></parameter>
+		<parameter name="driver.capabilities.platformName" value="iOS"></parameter>
+		<parameter name="driver.capabilities.bundleId" value="com.perfecto.PerfectoBank"></parameter>
+ 		<parameter name="driver.capabilities.location" value="NA-US-BOS"></parameter>
+
+		<groups>
+			<run>
+				<include name="perfectoBank" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.PerfectoBank" />
+		</classes>
+	</test>
+
+
+		<test name="PerfectoBank ios11" enabled="true" thread-count="10">
+			<parameter name="driver.capabilities.deviceName" value="8AF8F6AFBC0F6CF46617EE6EFA70D140DA8D8965"></parameter>
+			<parameter name="driver.capabilities.platformName" value="iOS"></parameter>
+			<parameter name="driver.capabilities.bundleId" value="com.perfecto.PerfectoBank"></parameter>
+			<parameter name="driver.capabilities.location" value="NA-US-BOS"></parameter>
+
+			<groups>
+				<run>
+					<include name="perfectoBank" />
+				</run>
+			</groups>
+			<classes>
+				<class
+						name="com.quantum.tests.PerfectoBank" />
+			</classes>
+		</test>
+
+	<test name="PerfectoBank ios x" enabled="false" thread-count="10">
+		<parameter name="driver.capabilities.deviceName" value="00008020-001C58992628002E"></parameter>
+		<parameter name="driver.capabilities.platformName" value="iOS"></parameter>
+		<parameter name="driver.capabilities.bundleId" value="com.perfecto.PerfectoBank"></parameter>
+		<parameter name="driver.capabilities.location" value="NA-US-BOS"></parameter>
+
+		<groups>
+			<run>
+				<include name="perfectoBank" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.PerfectoBank" />
+		</classes>
+	</test>
+
+	<test name="PerfectoBank x max " enabled="false" thread-count="10">
+		<parameter name="driver.capabilities.deviceName" value="00008020-000E4D001428002E"></parameter>
+		<parameter name="driver.capabilities.platformName" value="iOS"></parameter>
+		<parameter name="driver.capabilities.bundleId" value="com.perfecto.PerfectoBank"></parameter>
+		<parameter name="driver.capabilities.location" value="NA-US-BOS"></parameter>
+
+		<groups>
+			<run>
+				<include name="perfectoBank" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.PerfectoBank" />
+		</classes>
+	</test>
+	<test name="PerfectoBank ios 11" enabled="false" thread-count="10">
+		<parameter name="driver.capabilities.deviceName" value="0D92A08DE9E133C06260F8CFC0F7F81BC33DD98B"></parameter>
+		<parameter name="driver.capabilities.platformName" value="iOS"></parameter>
+		<parameter name="driver.capabilities.bundleId" value="com.perfecto.PerfectoBank"></parameter>
+		<parameter name="driver.capabilities.location" value="NA-US-BOS"></parameter>
+
+		<groups>
+			<run>
+				<include name="perfectoBank" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.PerfectoBank" />
+		</classes>
+	</test>
+
+
+</suite>

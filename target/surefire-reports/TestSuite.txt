@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 187.499 sec <<< FAILURE! - in TestSuite
+PerfectoBankCheckDeposit(com.quantum.tests.PerfectoBank)  Time elapsed: 51.47 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Failed to execute command image.injection start: startImageInjection command failed. Reason: handset server: target application is not instrumented
+Command duration or timeout: 3.33 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'UziMac.lan', ip: '10.253.252.217', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_45'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{reportPdfUrl=https://demo.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638&_timestamp[0]=1539702263991, simpleIsVisibleCheck=true, deviceName=143D71CAAC024D6E111E8E7FF460D4C8F0080E5A, platform=ANY, password=, deviceSessionId=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638, host=demo.perfectomobile.com, singleTestReportUrl=https://demo.reporting.perfectomobile.com/library?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638&_timestamp[0]=1539702263991, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, rotatable=true, testGridReportUrl=https://demo.reporting.perfectomobile.com/library?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638&_timestamp[0]=1539702263991, entityType=appium_driver, xcuitestFindOptimizations=true, bundleId=com.perfecto.PerfectoBank, serverConnector=, serverHost=1.1.29.29:11601, securityToken=, executionId=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638, webdriver.remote.sessionid=05bebe77-bf7e-49e3-a473-812fea606cd9, locationContextEnabled=true, scriptName=RemoteWebDriver, location=NA-US-BOS, reportKey=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638, windTunnelReportUrl=https://demo.reporting.perfectomobile.com/library?externalId[0]=uzie@perfectomobile.com_RemoteWebDriver_18-10-16_15_04_23_20638&_timestamp[0]=1539702263991, user=, cssSelectorsEnabled=true}]
+Session ID: 05bebe77-bf7e-49e3-a473-812fea606cd9
+	at com.quantum.tests.PerfectoBank.PerfectoBankCheckDeposit(PerfectoBank.java:36)
+Caused by: java.lang.RuntimeException: Failed to execute command image.injection start: startImageInjection command failed. Reason: handset server: target application is not instrumented
+

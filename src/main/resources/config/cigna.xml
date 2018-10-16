@@ -1,0 +1,59 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Demo Suite" verbose="0" parallel="tests" thread-count="100">
+	<listeners>
+		<listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
+	</listeners>
+
+	<test name="Cigna on Pixel" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.model" value="Pixel"></parameter>
+		<parameter name="driver.capabilities.browserName" value="MobileOS"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Android"></parameter>
+
+
+		<groups>
+			<run>
+				<include name="@Cigna" />
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.quantum.tests.cignaTests" />
+		</classes>
+	</test>
+
+
+	<test name="Cigna on ios" enabled="false" thread-count="10">
+		<parameter name="driver.capabilities.deviceName" value="C224CBB792B3FB9A4FE03FCF35E3F8EA8721CF05"></parameter>
+		<parameter name="driver.capabilities.browserName" value="MobileOS"></parameter>
+		<parameter name="driver.capabilities.platformName" value="iOS"></parameter>
+
+
+		<groups>
+			<run>
+				<include name="@Cigna" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.cignaTests" />
+		</classes>
+	</test>
+
+
+	<test name="web1" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="64"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+
+		<groups>
+			<run>
+				<include name="@Cigna" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.cignaTests" />
+		</classes>
+	</test>
+
+</suite>

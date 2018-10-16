@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Demo Suite" verbose="0" parallel="tests" thread-count="100">
+	<listeners>
+		<listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
+	</listeners>
+
+
+	<test name="target on SX" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.deviceName" value="FA7530300822"></parameter>
+ 		<!--parameter name="driver.capabilities.appPackage" value="appActivity"></parameter-->
+
+
+		<classes>
+			<class
+					name="com.quantum.tests.nativeApp" />
+		</classes>
+	</test>
+</suite>

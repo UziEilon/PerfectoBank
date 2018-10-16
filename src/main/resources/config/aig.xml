@@ -1,0 +1,67 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Demo Suite" verbose="0" parallel="tests" thread-count="100">
+	<listeners>
+		<listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
+	</listeners>
+
+
+
+	<test name="target Chrome" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="65"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="10"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+
+
+		<groups>
+			<run>
+				<include name="aig" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.aigMain" />
+		</classes>
+	</test>
+
+	<test name="target FireFox" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="58"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Firefox"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="10"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+
+		<groups>
+			<run>
+				<include name="aig" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.aigMain" />
+		</classes>
+	</test>
+
+	<test name="target FireFox beta" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.browserVersion" value="beta"></parameter>
+		<parameter name="driver.capabilities.browserName" value="Firefox"></parameter>
+		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="10"></parameter>
+		<parameter name="driver.capabilities.platformVersion" value="10"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.location" value="US East"></parameter>
+
+		<groups>
+			<run>
+				<include name="aig" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.tests.aigMain" />
+		</classes>
+	</test>
+</suite>
