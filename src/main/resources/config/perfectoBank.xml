@@ -38,7 +38,7 @@
 			</classes>
 		</test>
 
-	<test name="PerfectoBank ios x" enabled="false" thread-count="10">
+	<test name="PerfectoBank ios x" enabled="true" thread-count="10">
 		<parameter name="driver.capabilities.deviceName" value="00008020-001C58992628002E"></parameter>
 		<parameter name="driver.capabilities.platformName" value="iOS"></parameter>
 		<parameter name="driver.capabilities.bundleId" value="com.perfecto.PerfectoBank"></parameter>
