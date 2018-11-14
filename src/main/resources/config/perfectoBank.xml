@@ -22,7 +22,7 @@
 
 
 		<test name="PerfectoBank ios11" enabled="true" thread-count="10">
-			<parameter name="driver.capabilities.deviceName" value="8AF8F6AFBC0F6CF46617EE6EFA70D140DA8D8965"></parameter>
+			<parameter name="driver.capabilities.deviceName" value="F41FB514D76C4374B983F4285C7C1BE60DA12E36"></parameter>
 			<parameter name="driver.capabilities.platformName" value="iOS"></parameter>
 			<parameter name="driver.capabilities.bundleId" value="com.perfecto.PerfectoBank"></parameter>
 			<parameter name="driver.capabilities.location" value="NA-US-BOS"></parameter>
