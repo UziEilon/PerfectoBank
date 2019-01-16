@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 public class PerfectoBank extends WebDriverTestCase {
 
 
-    @Test(description="Search", groups={"perfectoBank","P1","search"})
+    @Test(description="PerfectoBankCheckDeposit", groups={"perfectoBank","P1","search"})
     public void PerfectoBankCheckDeposit() {
 
 
@@ -61,7 +61,7 @@ public class PerfectoBank extends WebDriverTestCase {
 
     }
 
-    @Test(dependsOnMethods={"PerfectoBankCheckDeposit"} ,description="transfer", groups={"perfectoBank","P1","search"})
+    @Test(dependsOnMethods={"transferMoneyMoreThenBalance"} ,description="transfer", groups={"perfectoBank","P1","search"})
     public void transferMoneyMoreThenBalance() {
 
         getDriver().findElement(By.xpath("//*[@label=\"Transfer by email\"]")).click();
