@@ -61,7 +61,7 @@ public class PerfectoBank extends WebDriverTestCase {
 
     }
 
-    @Test(dependsOnMethods={"transferMoneyMoreThenBalance"} ,description="transfer", groups={"perfectoBank","P1","search"})
+    @Test(dependsOnMethods={"PerfectoBankCheckDeposit"} ,description="transfer", groups={"perfectoBank","P1","search"})
     public void transferMoneyMoreThenBalance() {
 
         getDriver().findElement(By.xpath("//*[@label=\"Transfer by email\"]")).click();
